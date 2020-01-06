@@ -14,7 +14,6 @@ namespace eval ::base64url {
     namespace ensemble create
 
     proc encode data {
-        regexp {[^=]*(=*)} [binary encode base64 $data] -> padding
         string map {+ - / _ = ""} [binary encode base64 $data]
     }
 
