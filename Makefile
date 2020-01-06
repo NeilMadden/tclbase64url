@@ -1,4 +1,4 @@
-VERSION=1.0.0
+VERSION=1.0.1
 
 all:
 	cp base64url.tcl base64url-${VERSION}.tm

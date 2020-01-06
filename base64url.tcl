@@ -7,7 +7,7 @@
 # See the file LICENSE.txt for license terms.
 
 package require Tcl         8.6
-package provide base64url   1.0.0
+package provide base64url   1.0.1
 
 namespace eval ::base64url {
     namespace export encode decode
